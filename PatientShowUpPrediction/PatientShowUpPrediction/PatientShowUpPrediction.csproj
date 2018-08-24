@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5152E203-7C12-41B2-8950-630205CE5FCB}</ProjectGuid>
+    <ProjectGuid>{4FB6A137-8C15-487C-9FB2-440FC9251A82}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>PatientShowUpPrediction</RootNamespace>
     <AssemblyName>PatientShowUpPrediction</AssemblyName>
@@ -59,6 +59,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
