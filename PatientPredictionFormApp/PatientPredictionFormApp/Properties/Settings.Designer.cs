@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PatientShowUpPrediction.Properties
+namespace PatientPredictionFormApp.Properties
 {
 
 

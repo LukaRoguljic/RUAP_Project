@@ -56,14 +56,6 @@ namespace CallRequestResponseService
 
                 client.BaseAddress = new Uri("https://ussouthcentral.services.azureml.net/workspaces/e1b8a1845a89432d8f71e613c63a9a00/services/2aa7807764c64b21976f49917e3fd9af/execute?api-version=2.0&details=true");
 
-                // WARNING: The 'await' statement below can result in a deadlock if you are calling this code from the UI thread of an ASP.Net application.
-                // One way to address this would be to call ConfigureAwait(false) so that the execution does not attempt to resume on the original context.
-                // For instance, replace code such as:
-                //      result = await DoSomeTask()
-                // with the following:
-                //      result = await DoSomeTask().ConfigureAwait(false)
-
-
                 HttpResponseMessage response = await client.PostAsJsonAsync("", scoreRequest);
 
                 if (response.IsSuccessStatusCode)

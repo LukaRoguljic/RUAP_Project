@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4FB6A137-8C15-487C-9FB2-440FC9251A82}</ProjectGuid>
+    <ProjectGuid>{72225781-76AE-4094-8A26-751BCCB8E17B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>PatientShowUpPrediction</RootNamespace>
-    <AssemblyName>PatientShowUpPrediction</AssemblyName>
+    <RootNamespace>PatientPredictionFormApp</RootNamespace>
+    <AssemblyName>PatientPredictionFormApp</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

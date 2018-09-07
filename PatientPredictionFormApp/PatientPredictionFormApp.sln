@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientShowUpPrediction", "PatientShowUpPrediction\PatientShowUpPrediction.csproj", "{4FB6A137-8C15-487C-9FB2-440FC9251A82}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientPredictionFormApp", "PatientPredictionFormApp\PatientPredictionFormApp.csproj", "{72225781-76AE-4094-8A26-751BCCB8E17B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4FB6A137-8C15-487C-9FB2-440FC9251A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4FB6A137-8C15-487C-9FB2-440FC9251A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4FB6A137-8C15-487C-9FB2-440FC9251A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4FB6A137-8C15-487C-9FB2-440FC9251A82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72225781-76AE-4094-8A26-751BCCB8E17B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72225781-76AE-4094-8A26-751BCCB8E17B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72225781-76AE-4094-8A26-751BCCB8E17B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72225781-76AE-4094-8A26-751BCCB8E17B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CB69EEA5-7562-4646-8CA9-CF7F4ABDE834}
+		SolutionGuid = {3D8D86D5-25FC-4FD0-A5CA-49E87475D037}
 	EndGlobalSection
 EndGlobal
