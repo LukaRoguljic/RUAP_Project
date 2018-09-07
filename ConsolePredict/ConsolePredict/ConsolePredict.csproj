@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CA8DE6C4-0553-4BB8-8072-810EB60BFCA1}</ProjectGuid>
+    <ProjectGuid>{EE1AFD19-D3FF-4DD5-9A86-269E195DB886}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsolePrediction</RootNamespace>
-    <AssemblyName>ConsolePrediction</AssemblyName>
+    <RootNamespace>ConsolePredict</RootNamespace>
+    <AssemblyName>ConsolePredict</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

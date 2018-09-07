@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolePrediction", "ConsolePrediction\ConsolePrediction.csproj", "{CA8DE6C4-0553-4BB8-8072-810EB60BFCA1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolePredict", "ConsolePredict\ConsolePredict.csproj", "{EE1AFD19-D3FF-4DD5-9A86-269E195DB886}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CA8DE6C4-0553-4BB8-8072-810EB60BFCA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CA8DE6C4-0553-4BB8-8072-810EB60BFCA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CA8DE6C4-0553-4BB8-8072-810EB60BFCA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CA8DE6C4-0553-4BB8-8072-810EB60BFCA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE1AFD19-D3FF-4DD5-9A86-269E195DB886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE1AFD19-D3FF-4DD5-9A86-269E195DB886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE1AFD19-D3FF-4DD5-9A86-269E195DB886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE1AFD19-D3FF-4DD5-9A86-269E195DB886}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {206F3F28-2EB0-4713-A577-F9A091C2D0B3}
+		SolutionGuid = {925034AA-928F-4CE9-8C25-C1CCA19F80C6}
 	EndGlobalSection
 EndGlobal

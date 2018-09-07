@@ -1,11 +1,4 @@
-﻿
-
-// This code requires the Nuget package Microsoft.AspNet.WebApi.Client to be installed.
-// Instructions for doing this in Visual Studio:
-// Tools -> Nuget Package Manager -> Package Manager Console
-// Install-Package Microsoft.AspNet.WebApi.Client
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net.Http;
@@ -42,8 +35,8 @@ namespace CallRequestResponseService
                             "input1",
                             new StringTable()
                             {
-                                ColumnNames = new string[] {"Age", "Gender", "AppointmentRegistration", "ApointmentData", "DayOfTheWeek", "Status", "Diabetes", "Alcoolism", "HiperTension", "Handcap", "Smokes", "Scholarship", "Tuberculosis", "Sms_Reminder", "AwaitingTime"},
-                                Values = new string[,] {  { "24", "F", "", "", "Friday", "", "0", "0", "1", "0", "0", "1", "0", "0", "1" },}
+                                ColumnNames = new string[] {"Age", "Gender", "DayOfTheWeek", "Status", "Diabetes", "Alcoolism", "HiperTension", "Handcap", "Smokes", "Scholarship", "Tuberculosis", "Sms_Reminder", "AwaitingTime"},
+                                Values = new string[,] {  { "1", "M", "Monday", "", "0", "0", "0", "0", "0", "0", "0", "0", "0" }, }
                             }
                         },
                     },
@@ -51,10 +44,18 @@ namespace CallRequestResponseService
                     {
                     }
                 };
-                const string apiKey = "JIKp0WJ6RDJPSX1PKq57+pePpASckKuSKnV3cONKxbKn9bFVVplOxJyV/J/XR+7f5PkMuxp5Ta7B4IL1kLSkoA=="; // Replace this with the API key for the web service
+                const string apiKey = "zW2hbCctTVV/nJyEhog3S2wmK+69jaSQkcOTYc5s47DdLTQIgQXDeGVgBIgCFZY9uTJwdCmiEw9Wl9K14x5KvQ=="; // Replace this with the API key for the web service
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
 
-                client.BaseAddress = new Uri("https://ussouthcentral.services.azureml.net/workspaces/e1b8a1845a89432d8f71e613c63a9a00/services/2aa7807764c64b21976f49917e3fd9af/execute?api-version=2.0&details=true");
+                client.BaseAddress = new Uri("https://ussouthcentral.services.azureml.net/workspaces/e1b8a1845a89432d8f71e613c63a9a00/services/bcd59111003d495599ffa8e5d0fc67a4/execute?api-version=2.0&details=true");
+
+                // WARNING: The 'await' statement below can result in a deadlock if you are calling this code from the UI thread of an ASP.Net application.
+                // One way to address this would be to call ConfigureAwait(false) so that the execution does not attempt to resume on the original context.
+                // For instance, replace code such as:
+                //      result = await DoSomeTask()
+                // with the following:
+                //      result = await DoSomeTask().ConfigureAwait(false)
+
 
                 HttpResponseMessage response = await client.PostAsJsonAsync("", scoreRequest);
 
@@ -77,5 +78,3 @@ namespace CallRequestResponseService
         }
     }
 }
-
-
